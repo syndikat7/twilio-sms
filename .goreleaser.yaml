@@ -28,6 +28,12 @@ archives:
     format_overrides:
     - goos: windows
       format: zip
+brews:
+- name: twilio-sms
+  homepage: https://github.com/syndikat7/homebrew-tools
+  tap:
+    owner: syndikat7
+    name: homebrew-tools
 checksum:
   name_template: 'checksums.txt'
 snapshot:
